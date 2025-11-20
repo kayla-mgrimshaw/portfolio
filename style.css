@@ -227,15 +227,15 @@ p {
 	gap: 10px;
 	align-items: center;
 	justify-items: center;
-	justify-content: center;
+	display: flex;
 }
 
 .text1 {
-	width: 50%;
+	width: 100%;
 }
 
 .doc1 {
-	width: 50%;
+	width: 100%;
 }
 
 .editblock2 {
@@ -243,15 +243,15 @@ p {
 	gap: 10px;
 	align-items: center;
 	justify-items: center;
-	justify-content: center;
+	display: flex;
 }
 
 .text2 {
-	width: 50%;
+	width: 100%;
 }
 
 .doc2 {
-	width: 50%;
+	width: 100%;
 }
 
 .editblock3 {
@@ -259,15 +259,15 @@ p {
 	gap: 10px;
 	align-items: center;
 	justify-items: center;
-	justify-content: center;
+	display: flex;
 }
 
 .text3 {
-	width: 50%;
+	width: 100%;
 }
 
 .doc3 {
-	width: 50%;
+	width: 100%;
 }
 
 /*END OF EDITING PAGE*/
