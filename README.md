@@ -1,2 +1,2 @@
 # portfolio
-Portfolio for Kayla Grimshaw
+Portfolio for Kayla Grimshaw to show her projects
