@@ -11,6 +11,21 @@
 	background-color: #fff7e6;
 }
 
+main {
+	margin-top: 50px;
+}
+
+p {
+	font-size: 18px;
+}
+
+/*START OF NAVBAR*/
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
 .navbar ul{
 	list-style-type: none;
 	background-color: #404040;
@@ -39,22 +54,15 @@
 .name {
 	margin-top: 25px;
 }
+/*END OF NAVBAR*/
 
-.bio {
+/*START OF HOMEPAGE*/
+.intro {
 	margin: 25px;
 	display: flex;
 	justify-items: center;
 	margin-top: 10px;
-	border-style: solid;
-	border-color: #00b8e6;
-	border-width: 5px;
 	align-items: center;
-}
-
-.imgcontainer {
-	width: 50%;
-	margin-right: 25px;
-	float: center;
 }
 
 .kayla {
@@ -65,7 +73,7 @@
 
 .paragraph {
 	display: stack;
-	width: 50%;
+	width: 100%;
 }
 
 .topcontent {
@@ -88,7 +96,9 @@
 .edit {
 	width: 30%;
 }
+/*END OF HOMEPAGE*/
 
+/*START OF FOOTER*/
 #foot {
 	display: flex;
 	justify-content: center;
@@ -133,13 +143,181 @@
 	background-color: black;
 	color: #00b8e6;
 }
+/*END OF FOOTER*/
 
+/*START OF PRODUCING PAGE*/
+.newest {
+	align-items: center;
+}
+
+.sources {
+	display: flex;
+	align-items: center;
+	height: 400px;
+	margin: 25px;
+}
+
+.rundoc {
+	width: 100%;
+	padding-left: 10px;
+}
+
+.bkicker {
+	display: flex;
+	margin: 25px;
+	align-items: center;
+	justify-content: center;
+}
+
+.description1 {
+	padding-right: 15px;
+}
+
+.bstory {
+	display: flex;
+	margin: 25px;
+	align-items: center;
+	justify-content: center;
+}
+
+.description2 {
+	padding-left: 15px;
+}
+
+/*ENDING OF PRODUCING PAGE*/
+
+/*START OF PHOTOGRAPHY PAGE*/
+.delhi {
+	margin: 25px;
+}
+
+.images {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-items: center;
+}
+
+.prom {
+	margin: 25px;
+}
+
+.images2 {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-items: center;
+}
+
+.camp {
+	margin: 25px;
+}
+
+.images3 {
+	display: flex;
+	gap: 6px;
+	align-items: center;
+	justify-items: center;
+}
+/*END OF PHOTOGRAPHY PAGE*/
+
+/*START OF EDITING PAGE*/
+.editblock1 {
+	margin: 25px;
+	gap: 10px;
+	align-items: center;
+	justify-items: center;
+}
+
+.text1 {
+	width: 50%;
+}
+
+.doc1 {
+	width: 50%;
+}
+
+.editblock2 {
+	margin: 25px;
+	gap: 10px;
+	align-items: center;
+	justify-items: center;
+}
+
+.text2 {
+	width: 50%;
+}
+
+.doc2 {
+	width: 50%;
+}
+
+.editblock3 {
+	margin: 25px;
+	gap: 10px;
+	align-items: center;
+	justify-items: center;
+}
+
+.text3 {
+	width: 50%;
+}
+
+.doc3 {
+	width: 50%;
+}
+
+/*END OF EDITING PAGE*/
+
+/*START OF ABOUT PAGE*/
+.about {
+	display: flex;
+	gap: 10px;
+	justify-items: center;
+	align-items: center;
+	margin: 25px;
+}
+
+.imgcontainer {
+	height: 350px;
+	width: 50%
+}
+
+.imgcontainer img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+
+.bio {
+	width: 50%;
+}
+
+.bio p {
+	margin-bottom: 10px;
+}
+
+.why {
+	margin: 25px;
+}
+
+.why p {
+	margin-bottom: 10px;
+}
+
+.funfacts {
+	display: flex;
+	margin: 25px;
+	gap: 15px;
+	margin: 25px;
+}
+
+/*END OF ABOUT PAGE*/
+
+/*START OF MOBILE VIEW*/
 @media (max-width: 700px) {
 	.navbar li {
 		font-size: 18px;
-	}
-	.aboutpage {
-		display: none ;
 	}
 
 	.name {
@@ -167,5 +345,129 @@
 
 	#foot h1{
 		font-size: 50px;
-	}	
+	}
+
+	.sources {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+	
+	.sources div {
+		width: 100%;
+		margin-bottom: 15px;
+		position: static;
+	}
+
+	.bkicker {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+
+	.bstory {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+
+	.images {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+
+	.images img{
+		width: 100%;
+	}
+	
+	.images2 {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+
+	.images2 img{
+		width: 100%;
+	}
+
+	.images3 {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+
+	.images3 img{
+		width: 100%;
+	}
+
+	.editblock1 {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+
+	.text1 {
+		width: 100%;
+	}
+	
+	.doc1 {
+		width: 100%;
+	}
+
+	.editblock2 {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+
+	.text2 {
+		width: 100%;
+	}
+	
+	.doc2 {
+		width: 100%;
+	}
+
+	.editblock3 {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+
+	.text3 {
+		width: 100%;
+	}
+	
+	.doc3 {
+		width: 100%;
+	}
+	
+	.about {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+
+	.imgcontainer {
+		width: 100%;
+	}
+
+	.funfacts {
+		flex-direction: column;
+		display: block;
+		height: auto;
+	}
+	
+	.funfacts div {
+		margin-bottom: 15px;
+	}
+}
+/*END OF MOBILE VIEW*/
+
+/*START OF LARGE DESKTOP VIEW*/
+@media (min-width: 1200px) {
+	p {
+		font-size: 22px;
+	}
 }
